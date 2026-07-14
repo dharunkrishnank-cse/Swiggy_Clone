@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Search Section Styles */
+.search-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.search-section h2 {
+    margin-bottom: 20px;
+}
+
+.search-section input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Restaurants Section Styles */
+.restaurants-section {
+    padding: 40px 20px;
+}
+
+.restaurants-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.restaurants-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.restaurant-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.restaurant-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
